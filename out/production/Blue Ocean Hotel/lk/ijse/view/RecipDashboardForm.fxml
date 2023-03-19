@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.ReceptionDashboardFormController">
+   <children>
+      <JFXButton layoutX="285.0" layoutY="149.0" />
+      <ImageView fitHeight="744.0" fitWidth="1080.0" layoutX="67.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../image/Artboard%204%20copy.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="407.0" layoutY="317.0" onAction="#RoomResClickOnAction" prefHeight="74.0" prefWidth="268.0" text="  " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="39.0" layoutY="655.0" onAction="#GoBackClickOnAction" prefHeight="42.0" prefWidth="65.0" text="  " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="405.0" layoutY="416.0" onAction="#MarkMaintainceClickOnAction" prefHeight="74.0" prefWidth="268.0" text="  " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
